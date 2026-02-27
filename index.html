@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fundamentos de desarrollo Web</h1>
+    <p>En este curso, aprenderás los conceptos básicos del desarrollo web, incluyendo HTML, CSS y JavaScript. Al finalizar el curso, serás capaz de crear sitios web interactivos y atractivos.</p>
+    <!-- 3 formas de agregar CSS -->
+    <h2>Temas del curso</h2>
+
+    <section id="selectores_basicos">
+        <h2>Selectores básicos</h2>
+        <p>Los selectores básicos en CSS te permiten seleccionar elementos HTML para aplicar estilos. Algunos de los selectores más comunes incluyen:</p>
+        <ul>
+            <li><strong>Selector de tipo (etiqueta):</strong> selecciona todos los elementos de un tipo específico, por ejemplo, <code>p</code> para seleccionar todos los párrafos.</li>
+            <li><strong>Selector de clase:</strong> selecciona elementos con una clase específica, por ejemplo, <code>.mi-clase</code> para seleccionar todos los elementos con la clase "mi-clase".</li>
+            <li><strong>Selector de ID:</strong> selecciona un elemento con un ID específico, por ejemplo, <code>#mi-id</code> para seleccionar el elemento con el ID "mi-id".</li>
+        </ul>
+        <h3>Ejemplos:</h3>
+        <p>Ejemplo de selector de tipo</p>
+        <p class="class_selector">Ejemplo de selector de clase</p>
+        <p id="id_selector">Ejemplo de selector de ID</p>
+
+    </section>
+
+    <section id="selectores_universal_combinaciones">
+        <h2>Selectores universales y combinaciones</h2>
+        <p>Los selectores universales y combinaciones te permiten seleccionar elementos de manera más específica. Algunos<strong>ejemplos</strong>incluyen:</p>
+        <ul>
+            <li><strong>Selector universal:</strong> selecciona todos los elementos, por ejemplo, <code>*</code>.</li>
+            <li><strong>Combinaciones de selectores:</strong> puedes combinar selectores para ser más específicos, por ejemplo, <code>div p</code> para seleccionar todos los párrafos dentro de un div.</li>
+    </section>
+
+    <section id="display_tipos_cajas">
+        <h2>Display y tipos de cajas</h2>
+        <p>El modelo de caja en CSS describe cómo se representan los elementos en la página. El tipo de display determina cómo se comporta un elemento. Algunos tipos comunes de display incluyen:</p>
+        <ul>
+            <li><strong>Block:</strong> el elemento ocupa todo el ancho disponible y comienza en una nueva línea, por ejemplo, <code>div</code>.</li>
+            <li><strong>Inline:</strong> el elemento solo ocupa el espacio necesario y no comienza en una nueva línea, por ejemplo, <code>span</code>.</li>
+            <li><strong>Inline-block:</strong> combina características de block e inline, permitiendo que el elemento tenga un tamaño específico pero sin forzar un salto de línea.</li>
+        </ul>
+        <h3>Ejemplos</h3>
+        <div class="display_block">Ejemplo de display block</div>
+        <span class="display_inline">Ejemplo de display inline</span>
+        <div class="display_inline_block">Ejemplo de display inline-block</div>
+        <div class="display_inline_block_2">Ejemplo de display inline-block</div>
+        <div class="display_block">Otro ejemplo de display block</div>
+    </section>
+
+    <section id="pseudo_clases">
+        <h2>Pseudo clases</h2>
+        <p>Las pseudo clases en CSS te permiten aplicar estilos a elementos en estados específicos o con ciertas características. Algunos ejemplos comunes de pseudo clases incluyen:</p>
+        <ul>
+            <li><strong>:hover   :</strong> se aplica cuando el usuario pasa el cursor sobre un elemento.</li>
+            <li><strong>:focus :</strong> se aplica cuando un elemento tiene el foco (por ejemplo, un campo de entrada).</li>
+            <li><strong>:active   :</strong> se aplica al elemento activo (por ejemplo, un botón presionado).</li>
+        </ul>
+        <h3>Ejemplos</h3>
+        <button class="pseudo_hover">Ejemplo de :hover</button>
+        <label for="input-focus">Etiqueta para el campo de entrada</label>
+        <input type="text" id="input-focus" class="pseudo_focus" placeholder="Ejemplo de :focus">
+        <button class="pseudo_active">Ejemplo de :active</button>
+    </section>
+</body>
+</html>  
